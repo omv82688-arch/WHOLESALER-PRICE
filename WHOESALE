@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#166534">
+<meta name="description" content="Verma Kiran Store — Quality Oil at the Right Price">
+<title>Verma Kiran Store | Quality Oil at the Right Price</title>
+<style>
+:root{--green:#166534;--green2:#15803d;--light:#f3f8f2;--ink:#18231b;--muted:#68746b;--line:#e1e9e1;--gold:#f5b82e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
+a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1160px,92%);margin:auto}
+.top{background:#104d28;color:#fff;font-size:12px;padding:8px 0}.top .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}.head{display:flex;align-items:center;gap:16px;padding:14px 0}.brand{display:flex;align-items:center;gap:10px;min-width:220px}.logo{height:45px;width:45px;border-radius:13px;background:var(--green);color:white;display:grid;place-items:center;font-size:24px}.brand strong{display:block;font-size:18px;line-height:1.2}.brand small{display:block;color:var(--muted);font-size:11px;margin-top:3px}.search{flex:1;display:flex;gap:8px;align-items:center;background:#f4f7f4;border:1px solid var(--line);border-radius:12px;padding:0 12px}.search input{width:100%;border:0;outline:0;background:transparent;padding:12px 0}.actions{display:flex;gap:8px}.btn{border:0;border-radius:10px;padding:11px 15px;background:var(--green);color:#fff;font-weight:700;cursor:pointer}.btn:hover{background:#104d28}.btn.light{background:#edf5ed;color:var(--green)}.btn.outline{background:#fff;color:var(--green);border:1px solid var(--green)}.nav{border-top:1px solid #f0f3f0}.nav .wrap{display:flex;gap:22px;overflow:auto;padding:10px 0;font-size:13px;white-space:nowrap}.nav a:hover{color:var(--green)}
+.hero{margin:22px auto 26px;background:linear-gradient(120deg,#103f23,#1f7a3c);border-radius:22px;color:#fff;overflow:hidden;position:relative}.hero-in{padding:clamp(26px,5vw,58px);max-width:690px}.eyebrow{display:inline-block;border:1px solid #ffffff66;border-radius:99px;padding:6px 10px;font-size:12px}.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.08;margin:17px 0 12px;letter-spacing:-1.2px}.hero p{line-height:1.7;color:#e2f2e5;max-width:510px}.hero .btn{background:var(--gold);color:#243016;margin-top:10px}.hero-art{position:absolute;right:5%;bottom:-16px;font-size:clamp(100px,20vw,220px);opacity:.18;pointer-events:none}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 auto 30px}.benefit{border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;gap:12px;align-items:center}.benefit .ico{font-size:25px}.benefit strong{display:block;font-size:14px}.benefit small{color:var(--muted);font-size:12px}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:28px 0 16px}.section-head h2{font-size:26px;margin:0}.section-head p{color:var(--muted);margin:5px 0 0;font-size:13px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:17px}.filters button{border:1px solid var(--line);background:#fff;padding:8px 13px;border-radius:99px;cursor:pointer;font-size:13px}.filters button.active{background:var(--green);color:#fff;border-color:var(--green)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}.card:hover{transform:translateY(-3px);box-shadow:0 10px 28px #15391a12}.product-art{height:165px;background:linear-gradient(145deg,#f1f7ef,#e3efe1);display:grid;place-items:center;position:relative}.bottle{width:65px;height:104px;background:linear-gradient(90deg,#d5a21c,#ffd96c,#c48c0b);border:2px solid #bb850d;border-radius:13px 13px 17px 17px;position:relative;box-shadow:0 8px 15px #7e6a2a2b}.bottle:before{content:"";position:absolute;top:-15px;left:20px;width:23px;height:16px;background:#7d5410;border-radius:4px 4px 1px 1px}.bottle:after{content:"OIL";position:absolute;left:5px;right:5px;top:35px;background:#fff9d9;color:#68450a;text-align:center;font-size:12px;font-weight:900;padding:6px 0;border-radius:4px}.bottle.large{height:122px;width:78px}.pack{position:absolute;left:12px;top:12px;background:#fff;border-radius:7px;padding:5px 8px;font-size:10px;font-weight:800;color:var(--green)}.card-body{padding:14px;display:flex;flex-direction:column;flex:1}.brand-tag{color:var(--green2);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.5px}.card h3{font-size:15px;margin:6px 0}.sub{font-size:12px;color:var(--muted)}.price-row{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:auto;padding-top:14px}.price{font-size:18px;font-weight:850}.old{font-size:11px;color:#9aa29b;text-decoration:line-through}.add{width:100%;margin-top:12px}.note{font-size:12px;line-height:1.6;color:#74551a;background:#fff7df;border:1px solid #f3e5b3;padding:12px;border-radius:10px;margin:20px 0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:36px 0}.about-box{background:var(--light);border-radius:18px;padding:24px}.about h2{margin-top:0}.about p{line-height:1.7;color:var(--muted)}.about ul{padding-left:20px;line-height:1.9}
+footer{margin-top:40px;background:#102f1b;color:#fff;padding:30px 0 18px}.footgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}.footgrid p,.footgrid a{color:#c9d9cd;font-size:13px;line-height:1.8}.footgrid h3,.footgrid h4{margin:0 0 10px}.copyright{border-top:1px solid #ffffff26;margin-top:22px;padding-top:15px;color:#b7c8bb;font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.overlay{display:none;position:fixed;inset:0;background:#0008;z-index:20;justify-content:flex-end}.overlay.open{display:flex}.drawer{background:#fff;width:min(440px,100%);height:100%;overflow:auto;padding:20px}.drawer-head{display:flex;justify-content:space-between;align-items:center}.close{border:0;background:#edf5ed;border-radius:8px;padding:8px 12px;font-size:20px}.cart-item{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:14px 0}.qty{display:flex;align-items:center;gap:8px;margin-top:7px}.qty button{border:1px solid var(--line);background:#f6f8f6;border-radius:6px;padding:3px 9px}.total{font-size:21px;font-weight:850;display:flex;justify-content:space-between;margin:18px 0}.field{display:block;margin:12px 0}.field span{display:block;font-size:13px;font-weight:700;margin-bottom:5px}.field input,.field textarea{width:100%;border:1px solid #cfdacf;border-radius:9px;padding:11px;outline-color:var(--green)}.empty{text-align:center;color:var(--muted);padding:30px 0}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#183d24;color:#fff;padding:12px 18px;border-radius:12px;z-index:30;display:none;max-width:90%;font-size:13px}
+
+.admin-entry{margin-left:auto;background:#173f25;color:#fff;border:0;border-radius:9px;padding:8px 12px;font-weight:700;cursor:pointer}
+.admin-panel{display:none;margin:22px auto;padding:20px;border:2px solid #166534;border-radius:18px;background:#f8fbf7}
+.admin-panel.open{display:block}.admin-panel h2{margin-top:0}.admin-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.admin-tabs button{border:1px solid #ccd9cc;background:#fff;border-radius:9px;padding:9px 12px}.admin-tabs button.active{background:#166534;color:#fff}
+.admin-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.admin-field label{display:block;font-size:12px;font-weight:800;margin:0 0 5px}.admin-field input,.admin-field textarea,.admin-field select{width:100%;padding:10px;border:1px solid #cbd8cb;border-radius:8px;background:#fff}.admin-field textarea{min-height:80px}.admin-products{display:grid;gap:10px}.admin-product{background:#fff;border:1px solid #dce6dc;border-radius:12px;padding:12px;display:flex;gap:12px;align-items:center}.admin-product img{width:58px;height:58px;object-fit:contain;border-radius:8px;background:#f0f5ef}.admin-product .details{flex:1;min-width:0}.admin-product strong{display:block}.admin-actions{display:flex;gap:7px;flex-wrap:wrap}.admin-actions button{border:0;border-radius:7px;padding:8px 10px;background:#eaf3e9;color:#174b27;font-weight:700}.admin-actions button.delete{background:#fff0ef;color:#a22}.photo-preview{width:90px;height:90px;object-fit:contain;background:#eaf3e9;border-radius:10px;display:block;margin:8px 0}.admin-warning{font-size:12px;line-height:1.6;background:#fff4d6;border:1px solid #ead99f;border-radius:10px;padding:12px;margin:12px 0}.admin-top{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.product-photo{max-width:100%;max-height:150px;object-fit:contain}.stock-label{font-size:11px;color:#4b6b4f;margin-top:7px}
+@media(max-width:600px){.admin-grid{grid-template-columns:1fr}.admin-product{align-items:flex-start}.admin-actions button{padding:7px}.admin-entry{padding:8px;font-size:12px}}
+
+@media(max-width:850px){.brand{min-width:auto}.brand small{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product-art{height:145px}.benefits{grid-template-columns:1fr}.benefit{padding:12px}.head{flex-wrap:wrap;gap:10px}.brand{flex:1}.search{order:3;flex-basis:100%}.actions .btn{padding:9px 11px}.about{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr 1fr}.footgrid>div:first-child{grid-column:1/-1}}
+@media(max-width:420px){.wrap{width:94%}.grid{gap:10px}.card-body{padding:11px}.product-art{height:125px}.bottle{transform:scale(.85)}.section-head h2{font-size:22px}.actions .btn{font-size:12px}.top .wrap{font-size:11px}.hero{border-radius:16px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>🚚 Delivery availability will be confirmed with your order</span><span>Trusted cooking oil shopping</span></div></div>
+<header>
+ <div class="wrap head">
+  <a class="brand" href="#home"><span class="logo">🛒</span><span><strong>Verma Kiran Store</strong><small>Quality Oil at the Right Price</small></span></a>
+  <label class="search">⌕ <input id="search" placeholder="Search oil, brand—even with spelling mistakes..." aria-label="Search products"></label>
+  <div class="actions"><button class="btn light" onclick="showCart()">🛒 Cart <span id="count">0</span></button></div>
+ </div>
+ <nav class="nav"><div class="wrap"><a href="#home">Home</a><a href="#shop">All Products</a><a href="#shop" onclick="setBrand('Fortune')">Fortune</a><a href="#shop" onclick="setBrand('Ruchi Gold')">Ruchi Gold</a><a href="#shop" onclick="setBrand('Abse Gold')">Abse Gold</a><a href="#shop" onclick="setBrand('Mahakosh')">Mahakosh</a><a href="#about">About Us</a><a href="#contact">Contact</a><button class="admin-entry" onclick="openAdmin()">⚙️ Admin</button></div></nav>
+</header>
+
+<section class="wrap admin-panel" id="adminPanel">
+ <div class="admin-top"><div><h2>Store Admin</h2><p class="sub">Products, photos, prices, stock and store text manage karein.</p></div><button class="btn outline" onclick="closeAdmin()">Close Admin</button></div>
+ <div class="admin-warning"><strong>Important:</strong> Yeh mobile demo admin hai. Changes isi browser/device mein save hote hain. Live public website par yeh password secure admin login nahi hai aur changes customers ke devices par sync nahi honge. Real business ke liye server-side login + database zaroori hai.</div>
+ <div class="admin-tabs"><button class="active" data-admin-tab="products" onclick="adminTab('products')">Products & Photos</button><button data-admin-tab="store" onclick="adminTab('store')">Store Design / Text</button><button data-admin-tab="backup" onclick="adminTab('backup')">Backup / Restore</button></div>
+ <div id="adminProducts">
+  <h3 id="productFormTitle">Add new product</h3>
+  <form id="productForm" onsubmit="saveProduct(event)">
+   <input type="hidden" id="editId">
+   <div class="admin-grid">
+    <div class="admin-field"><label for="pName">Product name *</label><input id="pName" required placeholder="Fortune Soybean Oil"></div>
+    <div class="admin-field"><label for="pBrand">Brand *</label><input id="pBrand" required placeholder="Fortune"></div>
+    <div class="admin-field"><label for="pSize">Pack size / variant *</label><input id="pSize" required placeholder="1 L pouch"></div>
+    <div class="admin-field"><label for="pPrice">Selling price (₹) *</label><input id="pPrice" type="number" min="0" step=".01" required></div>
+    <div class="admin-field"><label for="pOld">MRP (₹)</label><input id="pOld" type="number" min="0" step=".01"></div>
+    <div class="admin-field"><label for="pStock">Stock quantity</label><input id="pStock" type="number" min="0" step="1" value="10"></div>
+    <div class="admin-field" style="grid-column:1/-1"><label for="pDescription">Description</label><textarea id="pDescription" placeholder="Product details, packaging, features..."></textarea></div>
+    <div class="admin-field" style="grid-column:1/-1"><label for="pImage">Product photo (choose from phone gallery)</label><input id="pImage" type="file" accept="image/*" onchange="previewProductPhoto(event)"><img id="pPhotoPreview" class="photo-preview" alt="Selected product photo preview" style="display:none"><small class="sub">JPG/PNG/WebP. Image is resized for browser storage. Keep photos reasonably small.</small></div>
+   </div>
+   <div class="admin-actions" style="margin-top:14px"><button class="btn" type="submit">Save product</button><button class="btn outline" type="button" onclick="resetProductForm()">Clear form</button></div>
+  </form>
+  <hr style="border:0;border-top:1px solid #dce6dc;margin:22px 0">
+  <div class="admin-top"><h3>Current products</h3><span class="sub" id="adminProductCount"></span></div><div id="adminProductList" class="admin-products"></div>
+ </div>
+ <div id="adminStore" style="display:none">
+  <h3>Store appearance and text</h3><form id="storeForm" onsubmit="saveStoreSettings(event)">
+   <div class="admin-grid">
+    <div class="admin-field"><label for="sName">Store name</label><input id="sName" required></div>
+    <div class="admin-field"><label for="sTagline">Tagline</label><input id="sTagline"></div>
+    <div class="admin-field"><label for="sHeroTitle">Homepage headline</label><input id="sHeroTitle"></div>
+    <div class="admin-field"><label for="sHeroText">Homepage description</label><textarea id="sHeroText"></textarea></div>
+    <div class="admin-field"><label for="sAbout">About us text</label><textarea id="sAbout"></textarea></div>
+    <div class="admin-field"><label for="sWhatsApp">Store WhatsApp number (digits only, country code first)</label><input id="sWhatsApp" inputmode="numeric" placeholder="91XXXXXXXXXX"></div>
+    <div class="admin-field"><label for="sAddress">Shop address</label><input id="sAddress" placeholder="Shop address"></div>
+    <div class="admin-field"><label for="sEmail">Shop Gmail</label><input id="sEmail" type="email" placeholder="shop@example.com"></div>
+    <div class="admin-field"><label for="sDelivery">Top delivery message</label><input id="sDelivery"></div>
+   </div><button class="btn" style="margin-top:14px" type="submit">Save store settings</button>
+  </form>
+ </div>
+ <div id="adminBackup" style="display:none">
+  <h3>Backup / Restore store data</h3><p class="sub">Products, product photos and store settings ko JSON file mein export karein. File ko safe rakhein.</p>
+  <div class="admin-actions"><button class="btn" onclick="exportStore()">Download backup JSON</button><label class="btn outline" style="cursor:pointer">Restore backup<input type="file" accept="application/json,.json" style="display:none" onchange="importStore(event)"></label></div>
+ </div>
+</section>
+
+<main class="wrap" id="home">
+ <section class="hero"><div class="hero-in"><span class="eyebrow">YOUR EVERYDAY COOKING ESSENTIALS</span><h1>Quality Oil.<br>Right Price.</h1><p>Explore trusted soybean cooking oil brands for your kitchen. Choose your pack size and send your order request in just a few taps.</p><a class="btn" href="#shop">Shop soybean oil →</a></div><div class="hero-art">🫒</div></section>
+ <section class="benefits"><div class="benefit"><span class="ico">🛍️</span><span><strong>Easy shopping</strong><small>Browse products and add to cart</small></span></div><div class="benefit"><span class="ico">📦</span><span><strong>Order assistance</strong><small>Confirm stock and delivery before payment</small></span></div><div class="benefit"><span class="ico">🤝</span><span><strong>Customer support</strong><small>Order requests sent directly to the store</small></span></div></section>
+ <section id="shop">
+  <div class="section-head"><div><h2>Shop Soybean Oil</h2><p>Choose your preferred brand and pack size.</p></div><span id="resultCount" class="sub"></span></div>
+  <div class="filters" id="filters"><button class="active" data-brand="All">All Brands</button><button data-brand="Fortune">Fortune</button><button data-brand="Ruchi Gold">Ruchi Gold</button><button data-brand="Abse Gold">Abse Gold</button><button data-brand="Mahakosh">Mahakosh</button></div>
+  <p id="searchHint" class="sub" aria-live="polite"></p>
+  <div class="grid" id="products"></div>
+  <div class="note"><strong>Demo store note:</strong> Displayed prices are sample prices for website preview, not confirmed selling prices. Update prices, stock, delivery rules and store contact details before publishing for customers.</div>
+ </section>
+ <section class="about" id="about"><div class="about-box"><h2>About Verma Kiran Store</h2><p>We aim to make everyday cooking essentials easy to browse and order. Our store focuses on soybean cooking oil from familiar brands.</p><p><strong>Quality Oil at the Right Price.</strong></p></div><div class="about-box" id="contact"><h2>Shop Contact & Location</h2><p>Questions about products, stock or delivery? Contact our shop directly.</p><ul><li><strong>Address:</strong> <span id="shopAddress">Sundarnagar, Raipur, Chhattisgarh</span></li><li><strong>Phone / WhatsApp:</strong> <a id="shopPhoneLink" href="tel:8305542822">8305542822</a></li><li><strong>Email:</strong> <a id="shopEmailLink" href="mailto:omv20025@gmail.com">omv20025@gmail.com</a></li></ul><p>Final price, stock and delivery charges will be confirmed before order completion.</p></div></section>
+</main>
+<footer><div class="wrap"><div class="footgrid"><div><h3>Verma Kiran Store</h3><p>Quality Oil at the Right Price. A simple shopping experience for everyday cooking oil.</p></div><div><h4>Shop</h4><p><a href="#shop">All soybean oil</a><br><a href="#shop" onclick="setBrand('Fortune')">Fortune</a><br><a href="#shop" onclick="setBrand('Ruchi Gold')">Ruchi Gold</a></p></div><div><h4>Customer care</h4><p><a href="#contact">Contact</a><br><a href="#about">About us</a><br><span id="footerAddress">Sundarnagar, Raipur, Chhattisgarh</span><br><a href="tel:8305542822" id="footerPhone">8305542822</a><br><a href="mailto:omv20025@gmail.com" id="footerEmail">omv20025@gmail.com</a></p></div></div><div class="copyright"><span>© 2026 Verma Kiran Store</span><span>Preview version — online payments not enabled</span></div></div></footer>
+<div class="overlay" id="overlay" onclick="if(event.target.id==='overlay')closeCart()"><aside class="drawer"><div class="drawer-head"><h2>Your Cart</h2><button class="close" onclick="closeCart()">×</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="total">₹0</span></div>
+<div class="payment-box" style="border:1px solid #d7e5d7;border-radius:14px;padding:14px;margin:14px 0;background:#f7fbf7">
+<h3 style="margin:0 0 8px">Pay using UPI</h3>
+<p style="font-size:13px;margin:0 0 10px;color:#526052">UPI ID: <strong>8305542822@ybl</strong></p>
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST
